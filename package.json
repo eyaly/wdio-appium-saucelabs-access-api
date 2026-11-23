@@ -1,7 +1,7 @@
 {
   "name": "wdio-appium-saucelabs-access-api",
   "version": "1.0.0",
-  "description": "Sauce Labs Real Device Access API: reserve an iOS device, enable network capture, install PawKnits and record a test",
+  "description": "Sauce Labs Real Device Access API: reserve an iOS device, enable network capture, install PawKnits, record a test and run Appium tests",
   "private": true,
   "type": "module",
   "engines": {
@@ -10,5 +10,8 @@
   "scripts": {
     "start": "node run.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webdriverio": "^10.2.0"
+  }
 }
